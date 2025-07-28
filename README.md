@@ -1,5 +1,8 @@
 # dialecto-preview
 
+## Description
+This is a preview of my project called Dialecto, a unique take on a translator made to be linguistically aware of dialects. Currently, there would be security risks if i were to share the link. Until those are wrinkled out, you'll be able to try it out for yourself! :D
+
 (see '1-demo-phone-dontadd-note.jpg' in downloads to make note for under '1-demo-phone-ui-backend.mp4'.)
 
 ## 📁 Project Structure
