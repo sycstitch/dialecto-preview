@@ -1,5 +1,7 @@
 # dialecto-preview
 
+(see '1-demo-phone-dontadd-note.jpg' in downloads to make note for under '1-demo-phone-ui-backend.mp4'.)
+
 ## 📁 Project Structure
 
 ```
