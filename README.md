@@ -1,7 +1,4 @@
 # dialecto-preview
-<br></br>
-
-## Description
 This is a preview of my project called Dialecto, a unique take on a translator made to be linguistically aware of dialects. Currently, there are security risks with the app not exposed through git, but will be if app is faced to the public. Once those are wrinkled out, you'll be able to try it out for yourself! :D
 
 <br></br>
