@@ -17,8 +17,10 @@ This is a preview of my project called Dialecto, a unique take on a translator m
 | [YouTube link](https://youtube.com/shorts/9YXpPo1dNyo?feature=share) | <img src="media/screenshots/recommendations-phone-1.jpg" alt="phone (recommendations)" width="25%" height="auto"> |
 
 ### Unique Translations
-Translations are even accurate for AAVE!
-
+Translations are even accurate coming from English slang! Most is from AAVE, which I speak.
+| ![translation 1](media/screenshots/translation-aave-1.jpg) "em"                         | ![translation 2](media/screenshots/translation-aave-2.jpg) "prolly", "bust that corner"  |
+| --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| ![translation 3](media/screenshots/translation-aave-3.jpg) **"Ion", "wanna", "runnin"** | ![translation 4](media/screenshots/translation-aave-4.jpg) **"not (even) gon hold you"** |
 
 ## CI/CD Pipeline
 | Build and Preview                                          | Deploy Preview Site                                  |
