@@ -52,7 +52,7 @@ Translations are even accurate coming from English slang! Most is from AAVE, whi
 ## CI/CD Pipeline
 | Build and Preview                                          | Deploy Preview Site                                  |
 | ---------------------------------------------------------- | ---------------------------------------------------- |
-| ![build and preview](/media/ci-cd/1-build_and_preview.png) | ![deploy preview](/media/ci-cd/2-deploy_preview.png) |
+| ![build and preview](/media/ci-cd/1.1-build_and_preview.png) | ![deploy preview](/media/ci-cd/1.2-deploy_preview.png) |
 
 See my [personal workflow](https://github.com/sycstitch/guides/blob/main/dev/personal-workflow.md) I follow for my project.
 
