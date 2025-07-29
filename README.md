@@ -1,31 +1,55 @@
 # dialecto-preview
+<br></br>
 
 ## Description
 This is a preview of my project called Dialecto, a unique take on a translator made to be linguistically aware of dialects. Currently, there are security risks with the app not exposed through git, but will be if app is faced to the public. Once those are wrinkled out, you'll be able to try it out for yourself! :D
 
+<br></br>
 ## Demo
 ### Computer
 (Recorded with Gifox but limited on time, so recommendations are shown with the screenshot)
 | Live Demo                                         | Recommendations                                                |
-| ------------------------------------------------- | -------------------------------------------------------------- |
+| :-----------------------------------------------: | :------------------------------------------------------------: |
 | ![computer demo](media/demos/computer-demo-1.gif) | ![computer (recommendations)](media/demos/computer-demo-2.jpg) |
 
 ### Phone
-| Live Demo                                             | Recommendations                                                                                                   |
-| ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| [YouTube link](https://youtube.com/shorts/9YXpPo1dNyo?feature=share) | <img src="media/screenshots/recommendations-phone-1.jpg" alt="phone (recommendations)" width="25%" height="auto"> |
+| Live Demo                                                            | Recommendations                                                                                                   |
+| :------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------: |
+| [YouTube Link](https://youtube.com/shorts/9YXpPo1dNyo?feature=share) | <img src="media/screenshots/recommendations-phone-1.jpg" alt="phone (recommendations)" width="25%" height="auto"> |
 
 ### Unique Translations
 Translations are even accurate coming from English slang! Most is from AAVE, which I speak.
-| ![translation 1](media/screenshots/translation-aave-1.jpg) "em"                         | ![translation 2](media/screenshots/translation-aave-2.jpg) "prolly", "bust that corner"  |
-| --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| ![translation 3](media/screenshots/translation-aave-3.jpg) **"Ion", "wanna", "runnin"** | ![translation 4](media/screenshots/translation-aave-4.jpg) **"not (even) gon hold you"** |
 
+<table>
+  <tr>
+    <td style="width: 50%; vertical-align: top; padding: 10px;">
+      <img src="media/screenshots/translation-aave-1.jpg" alt="phone (recommendations)" style="width: 50%; height: auto; display: block; margin: 0 auto;">
+      <p style="text-align: center;">"em"</p>
+    </td>
+    <td style="width: 50%; vertical-align: top; padding: 10px;">
+      <img src="media/screenshots/translation-aave-2.jpg" alt="phone (recommendations)" style="width: 50%; height: auto; display: block; margin: 0 auto;">
+      <p style="text-align: center;">"prolly", "bust that corner"</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 50%; vertical-align: top; padding: 10px;">
+      <img src="media/screenshots/translation-aave-3.jpg" alt="phone (recommendations)" style="width: 50%; height: auto; display: block; margin: 0 auto;">
+      <p style="text-align: center;">"Ion", "wanna", "runnin"</p>
+    </td>
+    <td style="width: 50%; vertical-align: top; padding: 10px;">
+      <img src="media/screenshots/translation-aave-4.jpg" alt="phone (recommendations)" style="width: 50%; height: auto; display: block; margin: 0 auto;">
+      <p style="text-align: center;">"not (even) gon hold you"</p>
+    </td>
+  </tr>
+</table>
+
+<br></br>
 ## CI/CD Pipeline
 | Build and Preview                                          | Deploy Preview Site                                  |
 | ---------------------------------------------------------- | ---------------------------------------------------- |
 | ![build and preview](/media/ci-cd/1-build_and_preview.png) | ![deploy preview](/media/ci-cd/2-deploy_preview.png) |
 
+<br></br>
 ## Areas for Future Development
 
 This project is continuously evolving, and I have many exciting improvements planned. Here are some key areas I'm focusing on:
@@ -65,6 +89,7 @@ Ensuring the security of user data and API keys is paramount.
 
 * **Secure API Key Management:** I will be implementing robust protocols for the secure storage and usage of all API keys to protect sensitive information.
 
+<br></br>
 ## Project Structure
 ```
 .
