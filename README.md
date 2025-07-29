@@ -1,4 +1,12 @@
 # dialecto-preview
+![Node.js](https://img.shields.io/badge/Node.js-20.x-green?style=for-the-badge&logo=node.js&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)
+[![Firebase PR Build](https://img.shields.io/github/actions/workflow/status/sycstitch/dialecto/.github/workflows/firebase-hosting-pull-request.yml?branch=main&label=Firebase%20PR%20Build&style=for-the-badge)](https://github.com/sycstitch/dialecto/actions/workflows/firebase-hosting-pull-request.yml)
+[![Firebase Deploy](https://img.shields.io/github/actions/workflow/status/sycstitch/dialecto/.github/workflows/firebase-hosting-merge.yml?branch=main&label=Firebase%20Deploy&style=for-the-badge)](https://github.com/sycstitch/dialecto/actions/workflows/firebase-hosting-merge.yml)
+
 This is a preview of my project called Dialecto, a unique take on a translator made to be linguistically aware of dialects. Currently, there are security risks with the app not exposed through git, but will be if app is faced to the public. Once those are wrinkled out, you'll be able to try it out for yourself! :D
 
 <br></br>
@@ -45,6 +53,8 @@ Translations are even accurate coming from English slang! Most is from AAVE, whi
 | Build and Preview                                          | Deploy Preview Site                                  |
 | ---------------------------------------------------------- | ---------------------------------------------------- |
 | ![build and preview](/media/ci-cd/1-build_and_preview.png) | ![deploy preview](/media/ci-cd/2-deploy_preview.png) |
+
+See my [personal workflow](https://github.com/sycstitch/guides/blob/main/dev/personal-workflow.md) I follow for my project.
 
 <br></br>
 ## Areas for Future Development
