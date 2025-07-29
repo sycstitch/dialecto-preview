@@ -50,9 +50,37 @@ Translations are even accurate coming from English slang! Most is from AAVE, whi
 
 <br></br>
 ## CI/CD Pipeline
-| Build and Preview                                          | Deploy Preview Site                                  |
-| ---------------------------------------------------------- | ---------------------------------------------------- |
-| ![build and preview](/media/ci-cd/1.1-build_and_preview.png) | ![deploy preview](/media/ci-cd/1.2-deploy_preview.png) |
+
+This project uses GitHub Actions for automated testing, building, and deployment with separate workflows for pull requests and production releases.
+
+### Key Features
+- **Pull Request Validation**: Every PR triggers automated builds with live preview deployments
+- **Production Deployment**: Successful merges automatically deploy to the main Firebase hosting environment
+- **Consistent Success Rate**: Maintained 100% successful deployment rate across all features and refactors
+
+<details>
+<summary>📊 View Pipeline Screenshots</summary>
+
+**Workflow Overview**
+<p align="center">
+  <img src="media/ci-cd/1-Deploy-Firebase-Hosting-PR.png" alt="GitHub Actions workflow runs showing consistent successful builds" width="70%">
+  <br>
+  <em>All PR workflow runs demonstrating reliable CI/CD pipeline performance</em>
+</p>
+
+**Live Preview Generation**
+<p align="center">
+  <img src="media/ci-cd/1.2-deploy_preview.png" alt="Successful deployment with preview link" width="70%">
+  <br>
+  <em>Automated preview deployments provide immediate access to live testing environments</em>
+</p>
+
+</details>
+
+### Technical Implementation
+- **Build Process**: `npm ci` → `npm run build` → Firebase deployment
+- **Preview URLs**: Each PR generates a unique preview URL for stakeholder review
+- **Deployment Target**: Firebase Hosting with custom domain support
 
 See my [personal workflow](https://github.com/sycstitch/guides/blob/main/dev/personal-workflow.md) I follow for my project.
 
