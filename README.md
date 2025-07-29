@@ -5,8 +5,12 @@ This is a preview of my project called Dialecto, a unique take on a translator m
 
 (see '1-demo-phone-dontadd-note.jpg' in downloads to make note for under '1-demo-phone-ui-backend.mp4'.)
 
-## 📁 Project Structure
+## CI/CD Pipeline
+| Build and Preview                                         | Deploy Preview Site                                 |
+| --------------------------------------------------------- | --------------------------------------------------- |
+| ![build and preview](/media/ci-cd/1-build_and_preview.png)| ![deploy preview](/media/ci-cd/2-deploy_preview.png)|
 
+## 📁 Project Structure
 ```
 .
 ├── .firebaserc
