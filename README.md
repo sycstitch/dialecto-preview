@@ -20,7 +20,7 @@ This is a preview of my project called Dialecto, a unique take on a translator m
 ### Phone
 | Live Demo                                                            | Recommendations                                                                                                   |
 | :------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------: |
-| [YouTube Link](https://youtube.com/shorts/9YXpPo1dNyo?feature=share) | <img src="media/screenshots/recommendations-phone-1.jpg" alt="phone (recommendations)" width="25%" height="auto"> |
+| [YouTube Link](https://youtube.com/shorts/9YXpPo1dNyo?feature=share) | <img src="media/demos/recommendations-phone-1.jpg" alt="phone (recommendations)" width="25%" height="auto"> |
 
 ### Unique Translations
 Translations are even accurate coming from English slang! Most is from AAVE, which I speak.
@@ -28,21 +28,21 @@ Translations are even accurate coming from English slang! Most is from AAVE, whi
 <table>
   <tr>
     <td style="width: 50%; vertical-align: top; padding: 10px;">
-      <img src="media/screenshots/translation-aave-1.jpg" alt="phone (recommendations)" style="width: 50%; height: auto; display: block; margin: 0 auto;">
+      <img src="media/comparisons/translation-aave-1.jpg" alt="phone (recommendations)" style="width: 50%; height: auto; display: block; margin: 0 auto;">
       <p style="text-align: center;">"em"</p>
     </td>
     <td style="width: 50%; vertical-align: top; padding: 10px;">
-      <img src="media/screenshots/translation-aave-2.jpg" alt="phone (recommendations)" style="width: 50%; height: auto; display: block; margin: 0 auto;">
+      <img src="media/comparisons/translation-aave-2.jpg" alt="phone (recommendations)" style="width: 50%; height: auto; display: block; margin: 0 auto;">
       <p style="text-align: center;">"prolly", "bust that corner"</p>
     </td>
   </tr>
   <tr>
     <td style="width: 50%; vertical-align: top; padding: 10px;">
-      <img src="media/screenshots/translation-aave-3.jpg" alt="phone (recommendations)" style="width: 50%; height: auto; display: block; margin: 0 auto;">
+      <img src="media/comparisons/translation-aave-3.jpg" alt="phone (recommendations)" style="width: 50%; height: auto; display: block; margin: 0 auto;">
       <p style="text-align: center;">"Ion", "wanna", "runnin"</p>
     </td>
     <td style="width: 50%; vertical-align: top; padding: 10px;">
-      <img src="media/screenshots/translation-aave-4.jpg" alt="phone (recommendations)" style="width: 50%; height: auto; display: block; margin: 0 auto;">
+      <img src="media/comparisons/translation-aave-4.jpg" alt="phone (recommendations)" style="width: 50%; height: auto; display: block; margin: 0 auto;">
       <p style="text-align: center;">"not (even) gon hold you"</p>
     </td>
   </tr>
