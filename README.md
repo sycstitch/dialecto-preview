@@ -47,7 +47,7 @@ My app significantly outperforms Google Translate when handling cultural dialect
 <table>
   <tr>
     <td style="width: 50%; vertical-align: top; padding: 15px;">
-      <img src="media/comparisons/translation-aave-1.jpg" alt="Dialecto AAVE translation" style="width: 50%; height: auto; display: block; margin: 0 auto;">
+      <img src="media/comparisons/dialecto-aave-1.jpg" alt="Dialecto AAVE translation" style="width: 50%; height: auto; display: block; margin: 0 auto;">
       <p style="text-align: center;"><strong>✅ Dialecto:</strong> "em" → "them" ("ellos")</p>
     </td>
     <td style="width: 50%; vertical-align: top; padding: 15px;">
@@ -57,7 +57,7 @@ My app significantly outperforms Google Translate when handling cultural dialect
   </tr>
   <tr>
     <td style="width: 50%; vertical-align: top; padding: 15px;">
-      <img src="media/comparisons/translation-aave-3.jpg" alt="Dialecto AAVE translation" style="width: 50%; height: auto; display: block; margin: 0 auto;">
+      <img src="media/comparisons/dialecto-aave-3.jpg" alt="Dialecto AAVE translation" style="width: 50%; height: auto; display: block; margin: 0 auto;">
       <p style="text-align: center;"><strong>✅ Dialecto:</strong> "Ion wanna..." → "I don't want to keep the water running"</p>
     </td>
     <td style="width: 50%; vertical-align: top; padding: 15px;">
@@ -67,7 +67,7 @@ My app significantly outperforms Google Translate when handling cultural dialect
   </tr>
   <tr>
     <td style="width: 50%; vertical-align: top; padding: 15px;">
-      <img src="media/comparisons/translation-aave-4.jpg" alt="Dialecto AAVE translation" style="width: 50%; height: auto; display: block; margin: 0 auto;">
+      <img src="media/comparisons/dialecto-aave-4.jpg" alt="Dialecto AAVE translation" style="width: 50%; height: auto; display: block; margin: 0 auto;">
       <p style="text-align: center;"><strong>✅ Dialecto:</strong> "not (even) gon hold you" → "I'm not going to lie to you..."</p>
     </td>
     <td style="width: 50%; vertical-align: top; padding: 15px;">
@@ -77,7 +77,7 @@ My app significantly outperforms Google Translate when handling cultural dialect
   </tr>
   <tr>
     <td style="width: 50%; vertical-align: top; padding: 15px;">
-      <img src="media/comparisons/translation-aave-2.jpg" alt="Dialecto AAVE translation" style="width: 50%; height: auto; display: block; margin: 0 auto;">
+      <img src="media/comparisons/dialecto-aave-2.jpg" alt="Dialecto AAVE translation" style="width: 50%; height: auto; display: block; margin: 0 auto;">
       <p style="text-align: center;"><strong>✅ Dialecto:</strong> "bust that corner" → "turn on the corner"</p>
     </td>
     <td style="width: 50%; vertical-align: top; padding: 15px;">
