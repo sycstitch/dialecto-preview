@@ -1,4 +1,4 @@
-# dialecto-preview
+# Dialecto - Translation App Preview
 ![Node.js](https://img.shields.io/badge/Node.js-20.x-green?style=for-the-badge&logo=node.js&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -7,9 +7,18 @@
 [![Firebase PR Build](https://img.shields.io/github/actions/workflow/status/sycstitch/dialecto/.github/workflows/firebase-hosting-pull-request.yml?branch=main&label=Firebase%20PR%20Build&style=for-the-badge)](https://github.com/sycstitch/dialecto/actions/workflows/firebase-hosting-pull-request.yml)
 [![Firebase Deploy](https://img.shields.io/github/actions/workflow/status/sycstitch/dialecto/.github/workflows/firebase-hosting-merge.yml?branch=main&label=Firebase%20Deploy&style=for-the-badge)](https://github.com/sycstitch/dialecto/actions/workflows/firebase-hosting-merge.yml)
 
-This is a preview of my project called Dialecto, a unique take on a translator made to be linguistically aware of dialects. Currently, there are security risks with the app not exposed through git, but will be if app is faced to the public. Once those are wrinkled out, you'll be able to try it out for yourself! :D
+*This is a preview repository showcasing the functionality and technical implementation of my dialect-aware translation application. The full codebase remains private due to security considerations during development.*
 
-<br></br>
+Dialecto is a unique take on translation technology, designed to be linguistically aware of dialects and cultural context. Unlike traditional translators, it accurately handles regional expressions, slang, and cultural nuances - particularly excelling with AAVE (African American Vernacular English) and Dominican Spanish variations.
+
+## Technical Highlights
+
+- **Custom CI/CD Pipeline**: Achieved 100% deployment success rate with automated preview generation
+- **Cultural Dialect Recognition**: Advanced handling of AAVE, Dominican Spanish, and regional expressions
+- **Cross-Platform Responsive Design**: Seamless experience across desktop and mobile devices  
+- **Firebase Integration**: Real-time deployment with preview URLs for stakeholder review
+- **Docker Containerization**: Consistent development and deployment environments
+
 ## Demo
 ### Computer
 (Recorded with Gifox but limited on time, so recommendations are shown with the screenshot)
@@ -22,33 +31,91 @@ This is a preview of my project called Dialecto, a unique take on a translator m
 | :------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------: |
 | [YouTube Link](https://youtube.com/shorts/9YXpPo1dNyo?feature=share) | <img src="media/demos/recommendations-phone-1.jpg" alt="phone (recommendations)" width="25%" height="auto"> |
 
-### Unique Translations
-Translations are even accurate coming from English slang! Most is from AAVE, which I speak.
+### Dialect Translation Accuracy vs Google Translate
+My app significantly outperforms Google Translate when handling cultural dialects and slang. Here's a direct comparison:
 
+#### AAVE (African American Vernacular English) Examples
 <table>
   <tr>
     <td style="width: 50%; vertical-align: top; padding: 10px;">
-      <img src="media/comparisons/translation-aave-1.jpg" alt="phone (recommendations)" style="width: 50%; height: auto; display: block; margin: 0 auto;">
-      <p style="text-align: center;">"em"</p>
+      <img src="media/comparisons/translation-aave-1.jpg" alt="Dialecto AAVE translation" style="width: 50%; height: auto; display: block; margin: 0 auto;">
+      <p style="text-align: center;"><strong>Dialecto:</strong> "em" → "them" ("ellos")</p>
     </td>
     <td style="width: 50%; vertical-align: top; padding: 10px;">
-      <img src="media/comparisons/translation-aave-2.jpg" alt="phone (recommendations)" style="width: 50%; height: auto; display: block; margin: 0 auto;">
-      <p style="text-align: center;">"prolly", "bust that corner"</p>
+      <img src="media/comparisons/google-translate-aave-1.png" alt="Google Translate AAVE failure" style="width: 90%; height: auto; display: block; margin: 0 auto;">
+      <p style="text-align: center;"><strong>Google Translate:</strong> "em" → thinks "em" cannot be translated (misses cultural context)</p>
     </td>
   </tr>
   <tr>
     <td style="width: 50%; vertical-align: top; padding: 10px;">
-      <img src="media/comparisons/translation-aave-3.jpg" alt="phone (recommendations)" style="width: 50%; height: auto; display: block; margin: 0 auto;">
-      <p style="text-align: center;">"Ion", "wanna", "runnin"</p>
+      <img src="media/comparisons/translation-aave-3.jpg" alt="Dialecto AAVE translation" style="width: 50%; height: auto; display: block; margin: 0 auto;">
+      <p style="text-align: center;"><strong>Dialecto:</strong> "Ion wanna..." → "I don't want to keep the water running" ("No quiero")</p>
     </td>
     <td style="width: 50%; vertical-align: top; padding: 10px;">
-      <img src="media/comparisons/translation-aave-4.jpg" alt="phone (recommendations)" style="width: 50%; height: auto; display: block; margin: 0 auto;">
-      <p style="text-align: center;">"not (even) gon hold you"</p>
+      <img src="media/comparisons/google-translate-aave-3.png" alt="Google Translate AAVE failure" style="width: 90%; height: auto; display: block; margin: 0 auto;">
+      <p style="text-align: center;"><strong>Google Translate:</strong> "Ion wanna..." → "I want the water to keep running" ("Quiero que") (complete opposite meaning)</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 50%; vertical-align: top; padding: 10px;">
+      <img src="media/comparisons/translation-aave-4.jpg" alt="Dialecto AAVE translation" style="width: 50%; height: auto; display: block; margin: 0 auto;">
+      <p style="text-align: center;"><strong>Dialecto:</strong> "not (even) gon hold you" → "I'm not going to lie to you..."</p>
+    </td>
+    <td style="width: 50%; vertical-align: top; padding: 10px;">
+      <img src="media/comparisons/google-translate-aave-4.png" alt="Google Translate AAVE failure" style="width: 90%; height: auto; display: block; margin: 0 auto;">
+      <p style="text-align: center;"><strong>Google Translate:</strong> "not (even) gon hold you" → "I'm not going to hold you" (literal translation)</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 50%; vertical-align: top; padding: 10px;">
+      <img src="media/comparisons/translation-aave-2.jpg" alt="Dialecto AAVE translation" style="width: 50%; height: auto; display: block; margin: 0 auto;">
+      <p style="text-align: center;"><strong>Dialecto:</strong> "bust that corner" → "turn on the corner"</p>
+    </td>
+    <td style="width: 50%; vertical-align: top; padding: 10px;">
+      <img src="media/comparisons/google-translate-aave-2.png" alt="Google Translate AAVE failure" style="width: 90%; height: auto; display: block; margin: 0 auto;">
+      <p style="text-align: center;"><strong>Google Translate:</strong> "bust that corner" → Grammatically correct translation but inaccurate in tone - very formal </p>
     </td>
   </tr>
 </table>
 
-<br></br>
+**Key Differences:**
+- **Google Translate**: Provides literal word-for-word translations that lose cultural meaning
+- **Dialecto**: Recognizes dialectal patterns and provides accurate translations, even if tone doesn't fully match
+  - Ex: In the phone demo, my app recognized "Qué lo que?" as a common Dominican Spanish greeting. In Google Translate, it returned "what what?"
+
+## Project Structure
+```
+.
+├── .firebaserc
+├── .git/
+├── .github/
+│   └── workflows/
+│       ├── firebase-hosting-merge.yml
+│       └── firebase-hosting-pull-request.yml
+├── documentation/
+│   ├── roadmap.md
+│   ├── skills-used.md
+│   ├── troubleshooting.md
+│   └── versions.md
+├── docker-compose.yml
+├── Dockerfile
+├── entrypoint.sh
+├── firebase.json
+├── firebase-debug.log
+├── firestore-debug.log
+├── node_modules/
+├── package.json
+├── package-lock.json
+├── public/
+│   ├── config.js             # Auto-generated, ignored
+│   ├── index.html
+│   └── main.js
+├── src/
+│   ├── config.local.js       # My real keys (ignored)
+│   └── config.local.js.example
+└── README.md
+```
+
 ## CI/CD Pipeline
 
 This project uses GitHub Actions for automated testing, building, and deployment with separate workflows for pull requests and production releases.
@@ -59,7 +126,7 @@ This project uses GitHub Actions for automated testing, building, and deployment
 - **Consistent Success Rate**: Maintained 100% successful deployment rate across all features and refactors
 
 <details>
-<summary>📊 View Pipeline Screenshots</summary>
+<summary>View Pipeline Screenshots</summary>
 
 **Workflow Overview**
 <p align="center">
@@ -84,7 +151,6 @@ This project uses GitHub Actions for automated testing, building, and deployment
 
 See my [personal workflow](https://github.com/sycstitch/guides/blob/main/dev/personal-workflow.md) I follow for my project.
 
-<br></br>
 ## Areas for Future Development
 
 This project is continuously evolving, and I have many exciting improvements planned. Here are some key areas I'm focusing on:
@@ -123,37 +189,3 @@ Enhancing core features and efficient data handling are high priorities.
 Ensuring the security of user data and API keys is paramount.
 
 * **Secure API Key Management:** I will be implementing robust protocols for the secure storage and usage of all API keys to protect sensitive information.
-
-<br></br>
-## Project Structure
-```
-.
-├── .firebaserc
-├── .git/
-├── .github/
-│   └── workflows/
-│       ├── firebase-hosting-merge.yml
-│       └── firebase-hosting-pull-request.yml
-├── documentation/
-│   ├── roadmap.md
-│   ├── skills-used.md
-│   ├── troubleshooting.md
-│   └── versions.md
-├── docker-compose.yml
-├── Dockerfile
-├── entrypoint.sh
-├── firebase.json
-├── firebase-debug.log
-├── firestore-debug.log
-├── node_modules/
-├── package.json
-├── package-lock.json
-├── public/
-│   ├── config.js             # Auto-generated, ignored
-│   ├── index.html
-│   └── main.js
-├── src/
-│   ├── config.local.js       # My real keys (ignored)
-│   └── config.local.js.example
-└── README.md
-```
