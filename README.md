@@ -1,4 +1,5 @@
 # Dialecto - Translation App Preview
+
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -10,11 +11,12 @@
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-Passing-brightgreen?style=for-the-badge)
 ![Firebase](https://img.shields.io/badge/Firebase-Deployed-orange?style=for-the-badge&logo=firebase&logoColor=white)
 
-*This is a preview repository showcasing the functionality and technical implementation of my dialect-aware translation application. The full codebase remains private due to security considerations during development.*
+> *This is a preview repository showcasing the functionality and technical implementation of my dialect-aware translation application. The full codebase remains private due to security considerations during development.*
 
-Dialecto is a unique take on translation technology, designed to be linguistically aware of dialects and cultural context. Unlike traditional translators, it accurately handles regional expressions, slang, and cultural nuances - particularly excelling with AAVE (African American Vernacular English) and Dominican Spanish variations.
+**Dialecto** is a unique take on translation technology, designed to be linguistically aware of dialects and cultural context. Unlike traditional translators, it accurately handles regional expressions, slang, and cultural nuances - particularly excelling with **AAVE** (African American Vernacular English) and **Dominican Spanish** variations.
 
-## Technical Highlights
+
+## 🚀 Technical Highlights
 
 - **Custom CI/CD Pipeline**: Achieved 100% deployment success rate with automated preview generation
 - **Cultural Dialect Recognition**: Advanced handling of AAVE, Dominican Spanish, and regional expressions
@@ -22,71 +24,77 @@ Dialecto is a unique take on translation technology, designed to be linguistical
 - **Firebase Integration**: Real-time deployment with preview URLs for stakeholder review
 - **Docker Containerization**: Consistent development and deployment environments
 
-## Demo
-### Computer
-(Recorded with Gifox but limited on time, so recommendations are shown with the screenshot)
-| Live Demo                                         | Recommendations                                                |
+
+## 🎬 Demo
+
+### Desktop Experience
+| Live Demo                                         | Smart Recommendations                                          |
 | :-----------------------------------------------: | :------------------------------------------------------------: |
 | ![computer demo](media/demos/computer-demo-1.gif) | ![computer (recommendations)](media/demos/computer-demo-2.jpg) |
 
-### Phone
-| Live Demo                                                            | Recommendations                                                                                                   |
+### Mobile Experience
+| Live Demo                                                            | Smart Recommendations                                                                                             |
 | :------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------: |
-| [YouTube Link](https://youtube.com/shorts/9YXpPo1dNyo?feature=share) | <img src="media/demos/recommendations-phone-1.jpg" alt="phone (recommendations)" width="25%" height="auto"> |
+| [📱 YouTube Demo](https://youtube.com/shorts/9YXpPo1dNyo?feature=share) | <img src="media/demos/recommendations-phone-1.jpg" alt="phone recommendations" width="25%" height="auto"> |
 
-### Dialect Translation Accuracy vs Google Translate
+
+## ⚡ Dialect Translation Accuracy vs Google Translate
+
 My app significantly outperforms Google Translate when handling cultural dialects and slang. Here's a direct comparison:
 
-#### AAVE (African American Vernacular English) Examples
+### AAVE (African American Vernacular English) Examples
+
 <table>
   <tr>
-    <td style="width: 50%; vertical-align: top; padding: 10px;">
+    <td style="width: 50%; vertical-align: top; padding: 15px;">
       <img src="media/comparisons/translation-aave-1.jpg" alt="Dialecto AAVE translation" style="width: 50%; height: auto; display: block; margin: 0 auto;">
-      <p style="text-align: center;"><strong>Dialecto:</strong> "em" → "them" ("ellos")</p>
+      <p style="text-align: center;"><strong>✅ Dialecto:</strong> "em" → "them" ("ellos")</p>
     </td>
-    <td style="width: 50%; vertical-align: top; padding: 10px;">
+    <td style="width: 50%; vertical-align: top; padding: 15px;">
       <img src="media/comparisons/google-translate-aave-1.png" alt="Google Translate AAVE failure" style="width: 90%; height: auto; display: block; margin: 0 auto;">
-      <p style="text-align: center;"><strong>Google Translate:</strong> "em" → thinks "em" cannot be translated (misses cultural context)</p>
+      <p style="text-align: center;"><strong>❌ Google Translate:</strong> "em" → cannot translate (misses cultural context)</p>
     </td>
   </tr>
   <tr>
-    <td style="width: 50%; vertical-align: top; padding: 10px;">
+    <td style="width: 50%; vertical-align: top; padding: 15px;">
       <img src="media/comparisons/translation-aave-3.jpg" alt="Dialecto AAVE translation" style="width: 50%; height: auto; display: block; margin: 0 auto;">
-      <p style="text-align: center;"><strong>Dialecto:</strong> "Ion wanna..." → "I don't want to keep the water running" ("No quiero")</p>
+      <p style="text-align: center;"><strong>✅ Dialecto:</strong> "Ion wanna..." → "I don't want to keep the water running"</p>
     </td>
-    <td style="width: 50%; vertical-align: top; padding: 10px;">
+    <td style="width: 50%; vertical-align: top; padding: 15px;">
       <img src="media/comparisons/google-translate-aave-3.png" alt="Google Translate AAVE failure" style="width: 90%; height: auto; display: block; margin: 0 auto;">
-      <p style="text-align: center;"><strong>Google Translate:</strong> "Ion wanna..." → "I want the water to keep running" ("Quiero que") (complete opposite meaning)</p>
+      <p style="text-align: center;"><strong>❌ Google Translate:</strong> "Ion wanna..." → "I want the water to keep running" (opposite meaning!)</p>
     </td>
   </tr>
   <tr>
-    <td style="width: 50%; vertical-align: top; padding: 10px;">
+    <td style="width: 50%; vertical-align: top; padding: 15px;">
       <img src="media/comparisons/translation-aave-4.jpg" alt="Dialecto AAVE translation" style="width: 50%; height: auto; display: block; margin: 0 auto;">
-      <p style="text-align: center;"><strong>Dialecto:</strong> "not (even) gon hold you" → "I'm not going to lie to you..."</p>
+      <p style="text-align: center;"><strong>✅ Dialecto:</strong> "not (even) gon hold you" → "I'm not going to lie to you..."</p>
     </td>
-    <td style="width: 50%; vertical-align: top; padding: 10px;">
+    <td style="width: 50%; vertical-align: top; padding: 15px;">
       <img src="media/comparisons/google-translate-aave-4.png" alt="Google Translate AAVE failure" style="width: 90%; height: auto; display: block; margin: 0 auto;">
-      <p style="text-align: center;"><strong>Google Translate:</strong> "not (even) gon hold you" → "I'm not going to hold you" (literal translation)</p>
+      <p style="text-align: center;"><strong>❌ Google Translate:</strong> "not (even) gon hold you" → "I'm not going to hold you" (literal translation)</p>
     </td>
   </tr>
   <tr>
-    <td style="width: 50%; vertical-align: top; padding: 10px;">
+    <td style="width: 50%; vertical-align: top; padding: 15px;">
       <img src="media/comparisons/translation-aave-2.jpg" alt="Dialecto AAVE translation" style="width: 50%; height: auto; display: block; margin: 0 auto;">
-      <p style="text-align: center;"><strong>Dialecto:</strong> "bust that corner" → "turn on the corner"</p>
+      <p style="text-align: center;"><strong>✅ Dialecto:</strong> "bust that corner" → "turn on the corner"</p>
     </td>
-    <td style="width: 50%; vertical-align: top; padding: 10px;">
+    <td style="width: 50%; vertical-align: top; padding: 15px;">
       <img src="media/comparisons/google-translate-aave-2.png" alt="Google Translate AAVE failure" style="width: 90%; height: auto; display: block; margin: 0 auto;">
-      <p style="text-align: center;"><strong>Google Translate:</strong> "bust that corner" → Grammatically correct translation but inaccurate in tone - very formal </p>
+      <p style="text-align: center;"><strong>❌ Google Translate:</strong> "bust that corner" → Overly formal translation, misses casual tone</p>
     </td>
   </tr>
 </table>
 
-**Key Differences:**
+### 🎯 Key Competitive Advantages
 - **Google Translate**: Provides literal word-for-word translations that lose cultural meaning
-- **Dialecto**: Recognizes dialectal patterns and provides accurate translations, even if tone doesn't fully match
-  - Ex: In the phone demo, my app recognized "Qué lo que?" as a common Dominican Spanish greeting. In Google Translate, it returned "what what?"
+- **Dialecto**: Recognizes dialectal patterns and provides culturally aware translations
+- **Real Example**: My app recognized "Qué lo que?" as a common Dominican Spanish greeting → Google returned "what what?"
 
-## Project Structure
+
+## 📁 Project Structure
+
 ```
 .
 ├── .firebaserc
@@ -119,17 +127,20 @@ My app significantly outperforms Google Translate when handling cultural dialect
 └── README.md
 ```
 
-## CI/CD Pipeline
 
-This project uses GitHub Actions for automated testing, building, and deployment with separate workflows for pull requests and production releases.
+## 🔄 CI/CD Pipeline
 
-### Key Features
+This project uses **GitHub Actions** for automated testing, building, and deployment with separate workflows for pull requests and production releases.
+
+### ✨ Key Features
 - **Pull Request Validation**: Every PR triggers automated builds with live preview deployments
 - **Production Deployment**: Successful merges automatically deploy to the main Firebase hosting environment
 - **Consistent Success Rate**: Maintained 100% successful deployment rate across all features and refactors
 
 <details>
-<summary>View Pipeline Screenshots</summary>
+<summary>📸 View Pipeline Screenshots</summary>
+
+<br>
 
 **Workflow Overview**
 <p align="center">
@@ -147,48 +158,44 @@ This project uses GitHub Actions for automated testing, building, and deployment
 
 </details>
 
-### Technical Implementation
+### 🔧 Technical Implementation
 - **Build Process**: `npm ci` → `npm run build` → Firebase deployment
 - **Preview URLs**: Each PR generates a unique preview URL for stakeholder review
 - **Deployment Target**: Firebase Hosting with custom domain support
 
-See my [personal workflow](https://github.com/sycstitch/guides/blob/main/dev/personal-workflow.md) I follow for my project.
+> 💡 See my [personal workflow](https://github.com/sycstitch/guides/blob/main/dev/personal-workflow.md) that I follow for this project.
 
-## Areas for Future Development
 
-This project is continuously evolving, and I have many exciting improvements planned. Here are some key areas I'm focusing on:
+## 🚧 Areas for Future Development
 
-### Language and Translation Accuracy
+This project is continuously evolving, and I have many exciting improvements planned:
 
-My primary goal is to provide highly accurate and contextually relevant translations.
+### 🎯 Language and Translation Accuracy
 
-* **Enhanced Contextual Understanding:** I'm actively working to improve the model's ability to understand nuances and slang, like ensuring "dame banda" is consistently translated as "give me space" rather than a literal "give me band."
-* **Robust Typo Detection:** The system will become more forgiving of minor typos. For instance, "dam**a** banda" should prompt a suggestion for "dam**e** banda" rather than a direct, incorrect translation.
-* **Model Optimization:** I'm exploring alternative AI models with superior language capabilities, balancing translation quality with cost-effectiveness.
-* **Broader Dialect Support:** Integrating more normalized dialectal data will significantly enhance the accuracy and breadth of translations for various regional expressions.
+* **Enhanced Contextual Understanding** — Improving the model's ability to understand nuances and slang, like ensuring "dame banda" is consistently translated as "give me space" rather than literal "give me band"
 
-### User Experience and Personalization
+* **Robust Typo Detection** — Making the system more forgiving of minor typos (e.g., "dam**a** banda" should suggest "dam**e** banda")
 
-Improving how users interact with and learn from the application is crucial.
+* **Model Optimization** — Exploring alternative AI models with superior language capabilities while balancing cost-effectiveness
 
-* **Culturally Relevant Explanations:** To address the current English-centric explanations, I plan to implement a multi-select dropdown menu allowing users to specify their known languages. This will enable concept explanations to be tailored to their linguistic and cultural background, using more familiar analogies and examples.
+* **Broader Dialect Support** — Integrating more normalized dialectal data for various regional expressions
 
-### User Interface (UI) Refinements
+### 👤 User Experience and Personalization
 
-A seamless and visually appealing interface is essential for a positive user experience.
+* **Culturally Relevant Explanations** — Implementing multi-select dropdown for users to specify known languages, enabling culturally tailored concept explanations
 
-* **Responsive Layouts:** I'll be refining the UI to ensure the background color consistently fills the entire screen on all display sizes.
-* **Optimized Button Placement:** The layout for authentication buttons (e.g., "Sign in with Google") will be adjusted to better accommodate various screen dimensions, ensuring all elements are clearly visible without impacting text size.
+### 🎨 User Interface Refinements
 
-### Core Functionality and Data Management
+* **Responsive Layouts** — Ensuring background color consistently fills entire screen on all display sizes
 
-Enhancing core features and efficient data handling are high priorities.
+* **Optimized Button Placement** — Adjusting authentication button layouts for various screen dimensions
 
-* **Persistent User Data:** Completing the "Sign in with Google" integration will allow users' translation history to be saved across sessions, even if their browser cache is cleared.
-* **Intelligent History Management:** I'm planning to implement a system that automatically prunes less frequently accessed translations from a user's history after a certain period, optimizing storage space.
+### ⚙️ Core Functionality and Data Management
 
-### Security Enhancements
+* **Persistent User Data** — Completing "Sign in with Google" integration for cross-session translation history
 
-Ensuring the security of user data and API keys is paramount.
+* **Intelligent History Management** — Auto-pruning less frequently accessed translations to optimize storage
 
-* **Secure API Key Management:** I will be implementing robust protocols for the secure storage and usage of all API keys to protect sensitive information.
+### 🔒 Security Enhancements
+
+* **Secure API Key Management** — Implementing robust protocols for secure storage and usage of all API keys
