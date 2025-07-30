@@ -7,8 +7,8 @@
 ![Gemini AI](https://img.shields.io/badge/Gemini%20AI-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)
-[![Firebase PR Build](https://img.shields.io/github/actions/workflow/status/sycstitch/dialecto/.github/workflows/firebase-hosting-pull-request.yml?branch=main&label=Firebase%20PR%20Build&style=for-the-badge)](https://github.com/sycstitch/dialecto/actions/workflows/firebase-hosting-pull-request.yml)
-[![Firebase Deploy](https://img.shields.io/github/actions/workflow/status/sycstitch/dialecto/.github/workflows/firebase-hosting-merge.yml?branch=main&label=Firebase%20Deploy&style=for-the-badge)](https://github.com/sycstitch/dialecto/actions/workflows/firebase-hosting-merge.yml)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-Passing-brightgreen?style=for-the-badge)
+![Firebase](https://img.shields.io/badge/Firebase-Deployed-orange?style=for-the-badge&logo=firebase&logoColor=white)
 
 *This is a preview repository showcasing the functionality and technical implementation of my dialect-aware translation application. The full codebase remains private due to security considerations during development.*
 
